@@ -1,0 +1,12 @@
+AWS_PROFILE=qa
+AWS_REGION=us-east-1
+DENG_CFG_DIR=./configs
+
+SOURCE_PROFILE=dev
+SOURCE_REGION=us-east-1
+
+DEST_PROFILE=production
+DEST_REGION=barbados-2
+
+REDSHIFT_USER=funk
+REDSHIFT_PWD=wagnall

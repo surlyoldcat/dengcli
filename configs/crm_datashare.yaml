@@ -1,0 +1,19 @@
+general:
+  datashare_name: "analyst_share-crm_events"
+
+source:
+  db: "fds_datamaster_pro"
+  account: "1234"
+  schema: "crm_events_curated"
+  host: "itzadb.amazonaws.com"
+  port: 5439
+  namespace: "aaa-ccc-fddd"
+
+target:
+  db: "crm_events_db"
+  account: "5678"
+  host: "itzadb.amazonaws.com"
+  port: 5439
+  namespace: "1111-222-333-4"
+  access_groups:
+    - "analysts"

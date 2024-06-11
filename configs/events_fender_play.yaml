@@ -1,0 +1,19 @@
+general:
+  datashare_name: "analyst_share-segment_events"
+
+source:
+  db: "events"
+  account: "12345"
+  schema: "fender_play"
+  host: "foo.amazonaws.com"
+  port: 5439
+  namespace: "1ff1-cded-48cb"
+
+target:
+  db: "segment_events_db"
+  account: "013590"
+  host: "foo.amazonaws.com"
+  port: 5439
+  namespace: "george orwell"
+  access_groups:
+    - "analysts"
